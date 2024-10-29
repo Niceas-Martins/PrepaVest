@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2e2e28d;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: #038D74;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu{
+  margin-top: 9px;
+  margin-left: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+.View_User{
+    cursor: pointer;
+    margin: 5px;
+    width: 53px;
+    height: 53px;
+}
+
+.Context{
+    cursor: pointer;
+    margin: 5px;
+    width: 53px;
+    height: 53px;
+}
+.Img_Menu{
+    display: flex;
+}
+.Lane1, .Lane2, .Lane3{
+   width: 45px;
+   height: 5px;
+   background: black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.Three_Top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 50px;
+}
+
+.Three_Top1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.Novo_Plano{
+    border-radius: 20px;
+    display: flex;
+    align-items: normal;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    background-image: url(Img/Component\ 1.png);
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 241px;
+    height: 281px;
+}
+
+.Plano_Exata{
+    cursor: pointer;
+    background-image: url(Img/Component\ 3.png);
+    width: 241px;
+    height: 281px;
+}
+
+
+.Negocio{
+    cursor: pointer;
+    background-image: url(Img/Component\ 4.png);
+    width: 241px;
+    height: 281px;
+}
+
+.Separar{
+    margin-left: 70px;
+    margin-bottom: 31px;
+    background-color: #396A61;
+    width: 500px;
+    height: 10px;
+}
+
+.Plano_Estudo{
+    cursor: pointer;
+    background-image: url(Img/Component\ 2.png);
+    width: 241px;
+    height: 281px;
+}
+
+.Template1{
+    cursor: pointer;
+    background-image: url(Img/Property\ 1=Default.png);
+    width: 241px;
+    height: 281px;
+}
+.Template2{
+    border-radius: 20px;
+    cursor: pointer;
+    background-image: url(Img/Template2_1.png);
+    width: 241px;
+    height: 281px;
+}
+
+.Novo_Plano, 
+.Plano_Exata, 
+.Negocio, 
+.Plano_Estudo, 
+.Template1, 
+.Template2 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Novo_Plano:hover, 
+.Plano_Exata:hover, 
+.Negocio:hover, 
+.Plano_Estudo:hover, 
+.Template1:hover, 
+.Template2:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+footer {
+    font-family: 'Inrian Sans', sans-serif;
+    color: white;
+    background-color: #038D74;
+    padding: 10px;
+}

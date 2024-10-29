@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <img src="Img/Group 13.png" class="Img_Group_13">
+    <div class="Div_Main">
+            <main>
+                <aside>
+                    <div >
+                        <p class="Google"> <img src="Img/google-37 2.png" alt="Google-37" class="Google_Img">Entrar com o Google</p>
+                    </div>
+                    <div>
+                        <p class="Facebook"><img src="Img/faceimage 2.png" alt="Face" class="Face_Img">Entrar com o Facebook</p>
+                    </div>
+                    <p class="Not_conta">Não tem uma conta?</p>
+                    <button class="Regristrar">REGRISTRAR</button>
+                </aside>
+                <div class="Principal">
+                    <div class="Date">
+                        <span id="span_Email" class="span">Preencha o email corretamente</span>
+                        <div class="Div_Email"><input type="email" name="Email" id="email" placeholder="Email/Usuário" oninput="EmailValid()" >
+                        </div>
+                        <span id="span_Password">Senha deve ser maior que 3 caracteres</span>
+                        <div class="Div_Password"><input type="password" name="password" id="Password" placeholder="Coloque sua Senha" oninput="PasswordValid()"></div>
+                        <div class="Div_box"><input type="checkbox" class="checkbox"><p class="Lembrar">Lembrar</p> 
+                        <p class="Es_password">esqueceu a senha?</p></div>
+                    </div>
+                    <button type="submit" class="Entrar" id="Entre">ENTRAR</button>
+                </div>
+            </main>
+</div>
+
+    <footer>
+        <h2>Ajuda e Suporte</h2>
+        <p>Email: suporte@prepavest.com.br</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
